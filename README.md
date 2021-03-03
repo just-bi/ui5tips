@@ -12,7 +12,7 @@ The UI5 look and feel is highly standardized and this is one of its benefits - e
 But sometimes, a little css can improve the look, and sometimes the feel of certain ui5 controls, widgets and layouts.
 These tips can be used as is or provide some inspiration to try your own ui5 css hacks.
 Examples in this category include:
-  * **[TabContainerItem Close Button](../../wiki/csshacks-tabcontaineritem-closebuttons)**: suppress the close buttons on the sap.m.TabContainerItem
+  * **[TabContainerItem Close Button](../../wiki/csshacks-tabcontaineritem-closebuttons)**: suppress the close buttons on the [sap.m.TabContainerItem](https://openui5.hana.ondemand.com/#/api/sap.m.TabContainerItem)
 
 * **[bufferedeventhandler](../../wiki/bufferedeventhandler)**:
 Standard UI5 event handling will usually go a long way. Yet sometimes, certain user actions can cause ui5 objects to generate a lot of events within a small period of time.
