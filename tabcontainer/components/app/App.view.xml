@@ -28,7 +28,12 @@
     id="app"
   >
     <m:pages>
-      <m:Page title="Tab Container">       
+      <m:Page title="CSS hacks: hiding Tab Container close buttons">
+      
+        <m:headerContent>
+          <m:Link href="https://github.com/just-bi/ui5tips/wiki/CSS-hacks:-TabContainerItem-close-buttons" target="github" text="About this app"/>
+        </m:headerContent>
+        
         <m:TabContainer 
           class="noCloseButtons" 
           selectedItem="showIndividually"
