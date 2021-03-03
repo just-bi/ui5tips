@@ -1,7 +1,7 @@
 # ui5tips
 Some tips and reusable code you can use and reuse throughout your openui5 and sapui5 applications.
 
-* **loadingscreen**:
+* **[loadingscreen](wiki/Loading-screen)**:
 UI5 apps always take a little time to load. If you don't take any precautions, the user will be looking at a blank screen while the app is loading.
 With minimal effort you can add a splash screen and loading indiciator to improve the user experience and give your app a more professional appearance.
 With this sample you will learn a simple way to do just this.
