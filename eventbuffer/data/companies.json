@@ -1,0 +1,812 @@
+{
+  "columns": [
+    {"name": "CompanyName", "type": "string"},
+    {"name": "Address", "type": "string"},
+    {"name": "City", "type": "string"},
+    {"name": "Country", "type": "string"},
+    {"name": "Phone", "type": "string"},
+    {"name": "Departments", "type": "array"}  
+  ],
+  "rows": [
+    {
+      "CompanyName": "Sit Amet Luctus Ltd",
+      "Address": "P.O. Box 176, 4789 Tempus St.",
+      "City": "Cardiff",
+      "Country": "Venezuela",
+      "Phone": "1-451-200-1496",
+      "Departments": ["Quality Assurance", "Asset Management"]
+    },
+    {
+      "CompanyName": "Euismod Ac Fermentum Corp.",
+      "Address": "P.O. Box 952, 3742 Pede. Avenue",
+      "City": "Butte",
+      "Country": "Cameroon",
+      "Phone": "1-929-869-9866",
+      "Departments": ["Finances", "Legal Department", "Accounting", "Payroll", "Public Relations", "Advertising", "Quality Assurance", "Asset Management", "Sales and Marketing"]
+    },
+    {
+      "CompanyName": "Egestas Limited",
+      "Address": "P.O. Box 859, 2735 Est Avenue",
+      "City": "Oria",
+      "Country": "Palestine, State of",
+      "Phone": "374-6251",
+      "Departments": ["Tech Support", "Advertising"]
+    },
+    {
+      "CompanyName": "Erat Incorporated",
+      "Address": "P.O. Box 184, 1201 Ullamcorper. St.",
+      "City": "Ambattur",
+      "Country": "Christmas Island",
+      "Phone": "257-2217",
+      "Departments": ["Media Relations", "Tech Support", "Finances"]
+    },
+    {
+      "CompanyName": "Lobortis Industries",
+      "Address": "P.O. Box 195, 4776 Hendrerit Ave",
+      "City": "Tamines",
+      "Country": "Zimbabwe",
+      "Phone": "102-0137",
+      "Departments": ["Customer Relations", "Research and Development", "Advertising", "Public Relations", "Tech Support", "Quality Assurance", "Human Resources", "Accounting", "Legal Department"]
+    },
+    {
+      "CompanyName": "Lorem Vitae Associates",
+      "Address": "8819 Lorem, Street",
+      "City": "Pedace",
+      "Country": "Uruguay",
+      "Phone": "431-3415",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Non Inc.",
+      "Address": "Ap #122-5991 Sit Street",
+      "City": "St. John's",
+      "Country": "Congo, the Democratic Republic of the",
+      "Phone": "441-0526",
+      "Departments": ["Public Relations", "Sales and Marketing", "Human Resources", "Research and Development", "Advertising", "Payroll", "Finances"]
+    },
+    {
+      "CompanyName": "Elit Fermentum Ltd",
+      "Address": "688-6270 Ipsum Road",
+      "City": "Krasnogorsk",
+      "Country": "South Africa",
+      "Phone": "1-814-695-9425",
+      "Departments": ["Sales and Marketing", "Finances", "Accounting", "Customer Relations", "Media Relations", "Asset Management"]
+    },
+    {
+      "CompanyName": "Vestibulum PC",
+      "Address": "P.O. Box 669, 6287 Sem. Ave",
+      "City": "Diego de Almagro",
+      "Country": "Ecuador",
+      "Phone": "792-7307",
+      "Departments": ["Customer Relations", "Asset Management", "Advertising", "Tech Support"]
+    },
+    {
+      "CompanyName": "Libero At Company",
+      "Address": "P.O. Box 659, 9463 Metus Avenue",
+      "City": "Yahyalı",
+      "Country": "Somalia",
+      "Phone": "861-9807",
+      "Departments": ["Customer Relations", "Research and Development", "Public Relations", "Accounting"]
+    },
+    {
+      "CompanyName": "Ut Semper Pretium Incorporated",
+      "Address": "6051 Erat Av.",
+      "City": "Sint-Lambrechts-Woluwe",
+      "Country": "Slovakia",
+      "Phone": "401-6253",
+      "Departments": ["Quality Assurance", "Customer Relations", "Customer Service", "Human Resources"]
+    },
+    {
+      "CompanyName": "Ante Ipsum Incorporated",
+      "Address": "6870 Id, Road",
+      "City": "Rocca Massima",
+      "Country": "United States",
+      "Phone": "543-1399",
+      "Departments": ["Public Relations", "Media Relations", "Sales and Marketing", "Tech Support", "Quality Assurance", "Customer Relations", "Finances", "Customer Service", "Research and Development", "Advertising"]
+    },
+    {
+      "CompanyName": "Sem Pellentesque Ut PC",
+      "Address": "P.O. Box 214, 5505 Nulla. Avenue",
+      "City": "Bellevue",
+      "Country": "Samoa",
+      "Phone": "756-1947",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Eros Nam Inc.",
+      "Address": "992-6134 Eget, Av.",
+      "City": "Tallahassee",
+      "Country": "Greenland",
+      "Phone": "179-2231",
+      "Departments": ["Customer Service", "Tech Support", "Asset Management"]
+    },
+    {
+      "CompanyName": "Quisque Ac Libero Ltd",
+      "Address": "4719 Cum Road",
+      "City": "Columbia",
+      "Country": "Uganda",
+      "Phone": "261-4787",
+      "Departments": ["Customer Relations", "Research and Development", "Public Relations"]
+    },
+    {
+      "CompanyName": "Mollis Integer Tincidunt LLP",
+      "Address": "957-5679 Odio. Avenue",
+      "City": "Dignano",
+      "Country": "Holy See (Vatican City State)",
+      "Phone": "1-804-397-1823",
+      "Departments": ["Research and Development"]
+    },
+    {
+      "CompanyName": "Eleifend Nec Malesuada Consulting",
+      "Address": "P.O. Box 784, 5349 Sed, Road",
+      "City": "Tsiigehtchic",
+      "Country": "Sao Tome and Principe",
+      "Phone": "1-661-528-5509",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Eget Company",
+      "Address": "370-1418 Eget St.",
+      "City": "Geoje",
+      "Country": "Hungary",
+      "Phone": "1-188-374-3429",
+      "Departments": ["Advertising", "Customer Service", "Tech Support", "Public Relations", "Legal Department", "Payroll", "Research and Development"]
+    },
+    {
+      "CompanyName": "Arcu Foundation",
+      "Address": "462-881 Tempus St.",
+      "City": "Springdale",
+      "Country": "Zimbabwe",
+      "Phone": "1-936-418-4729",
+      "Departments": ["Sales and Marketing", "Human Resources", "Research and Development", "Finances"]
+    },
+    {
+      "CompanyName": "Sociis Natoque Ltd",
+      "Address": "473-7546 Nascetur Rd.",
+      "City": "Kavaratti",
+      "Country": "French Guiana",
+      "Phone": "432-9870",
+      "Departments": ["Asset Management", "Finances", "Advertising", "Tech Support", "Customer Relations", "Sales and Marketing"]
+    },
+    {
+      "CompanyName": "Lorem Fringilla Ornare Industries",
+      "Address": "7709 Donec St.",
+      "City": "South Perth",
+      "Country": "Slovakia",
+      "Phone": "210-4656",
+      "Departments": ["Customer Relations", "Asset Management", "Research and Development", "Public Relations", "Finances", "Human Resources", "Payroll"]
+    },
+    {
+      "CompanyName": "Quis Tristique Ac Company",
+      "Address": "899-1500 Duis Rd.",
+      "City": "LiŽge",
+      "Country": "Latvia",
+      "Phone": "1-313-329-1476",
+      "Departments": ["Legal Department", "Quality Assurance", "Sales and Marketing", "Customer Service", "Public Relations", "Accounting"]
+    },
+    {
+      "CompanyName": "Scelerisque Foundation",
+      "Address": "Ap #505-8654 Non, Street",
+      "City": "Tank",
+      "Country": "British Indian Ocean Territory",
+      "Phone": "625-5592",
+      "Departments": ["Quality Assurance", "Public Relations", "Advertising", "Finances", "Customer Service", "Media Relations"]
+    },
+    {
+      "CompanyName": "Non Dapibus Corp.",
+      "Address": "P.O. Box 900, 959 Arcu. Rd.",
+      "City": "Varena",
+      "Country": "Kuwait",
+      "Phone": "590-8051",
+      "Departments": ["Research and Development", "Tech Support", "Customer Service"]
+    },
+    {
+      "CompanyName": "Leo Cras LLC",
+      "Address": "P.O. Box 701, 1414 Class Ave",
+      "City": "Muno",
+      "Country": "Congo (Brazzaville)",
+      "Phone": "776-5546",
+      "Departments": ["Asset Management", "Quality Assurance", "Legal Department"]
+    },
+    {
+      "CompanyName": "Eu Augue Consulting",
+      "Address": "Ap #890-3808 Cras Road",
+      "City": "Perugia",
+      "Country": "Fiji",
+      "Phone": "322-4747",
+      "Departments": ["Advertising"]
+    },
+    {
+      "CompanyName": "Mi Lorem Vehicula Institute",
+      "Address": "P.O. Box 865, 7146 Tempus, Ave",
+      "City": "Schulen",
+      "Country": "Zimbabwe",
+      "Phone": "255-2113",
+      "Departments": ["Advertising", "Accounting", "Customer Relations", "Payroll", "Media Relations", "Finances"]
+    },
+    {
+      "CompanyName": "Metus Industries",
+      "Address": "861-9326 Vel, Avenue",
+      "City": "Borchtlombeek",
+      "Country": "Italy",
+      "Phone": "735-8293",
+      "Departments": ["Sales and Marketing", "Payroll", "Advertising", "Human Resources", "Asset Management", "Finances", "Accounting", "Tech Support", "Public Relations", "Customer Service"]
+    },
+    {
+      "CompanyName": "Pellentesque Habitant Ltd",
+      "Address": "P.O. Box 641, 8800 Proin St.",
+      "City": "Fallo",
+      "Country": "Bangladesh",
+      "Phone": "1-535-228-2208",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Praesent Interdum Ligula Associates",
+      "Address": "P.O. Box 249, 9609 Magna. Avenue",
+      "City": "Sargodha",
+      "Country": "Romania",
+      "Phone": "1-623-910-9326",
+      "Departments": ["Human Resources", "Sales and Marketing", "Media Relations", "Customer Relations", "Accounting", "Research and Development", "Tech Support", "Advertising", "Payroll", "Customer Service"]
+    },
+    {
+      "CompanyName": "Eget Metus In Inc.",
+      "Address": "833-3881 Ornare Avenue",
+      "City": "Drancy",
+      "Country": "Cameroon",
+      "Phone": "1-979-634-2130",
+      "Departments": ["Accounting", "Asset Management"]
+    },
+    {
+      "CompanyName": "At Associates",
+      "Address": "998 Elementum, St.",
+      "City": "Rechnitz",
+      "Country": "Paraguay",
+      "Phone": "497-2732",
+      "Departments": ["Payroll", "Customer Service", "Research and Development", "Accounting", "Quality Assurance", "Customer Relations", "Legal Department", "Media Relations", "Public Relations", "Finances"]
+    },
+    {
+      "CompanyName": "Odio Tristique Pharetra Corp.",
+      "Address": "7714 Nunc St.",
+      "City": "Wichita",
+      "Country": "Haiti",
+      "Phone": "1-227-312-4890",
+      "Departments": ["Advertising", "Sales and Marketing", "Tech Support", "Accounting", "Quality Assurance", "Human Resources", "Payroll", "Finances", "Legal Department", "Customer Service"]
+    },
+    {
+      "CompanyName": "Urna Foundation",
+      "Address": "608-1009 Tristique Av.",
+      "City": "Rauco",
+      "Country": "Bonaire, Sint Eustatius and Saba",
+      "Phone": "600-8033",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Sem Pellentesque Inc.",
+      "Address": "816-8523 Libero. Rd.",
+      "City": "Greenock",
+      "Country": "British Indian Ocean Territory",
+      "Phone": "1-954-652-2328",
+      "Departments": ["Media Relations", "Sales and Marketing", "Public Relations", "Research and Development", "Customer Service", "Advertising", "Accounting"]
+    },
+    {
+      "CompanyName": "In Consectetuer Limited",
+      "Address": "3835 Lorem Street",
+      "City": "Nairn",
+      "Country": "Marshall Islands",
+      "Phone": "464-0334",
+      "Departments": ["Advertising"]
+    },
+    {
+      "CompanyName": "Pede Suspendisse Dui Corp.",
+      "Address": "P.O. Box 894, 3159 Lectus. Avenue",
+      "City": "Luton",
+      "Country": "Holy See (Vatican City State)",
+      "Phone": "1-464-696-8079",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Ad Litora Institute",
+      "Address": "Ap #547-1058 Orci Street",
+      "City": "Concepción",
+      "Country": "Bhutan",
+      "Phone": "892-6453",
+      "Departments": ["Tech Support", "Quality Assurance", "Advertising", "Legal Department", "Customer Relations", "Research and Development", "Human Resources", "Media Relations", "Accounting"]
+    },
+    {
+      "CompanyName": "Et Limited",
+      "Address": "P.O. Box 211, 6841 Quis Ave",
+      "City": "Ofena",
+      "Country": "Greece",
+      "Phone": "484-7437",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Neque Tellus Incorporated",
+      "Address": "P.O. Box 784, 3570 Donec Road",
+      "City": "Barra do Corda",
+      "Country": "Bouvet Island",
+      "Phone": "452-8679",
+      "Departments": ["Advertising", "Payroll", "Customer Service", "Media Relations", "Customer Relations", "Human Resources", "Accounting", "Sales and Marketing", "Public Relations"]
+    },
+    {
+      "CompanyName": "Eget Incorporated",
+      "Address": "Ap #299-3429 Id, Rd.",
+      "City": "Overrepen",
+      "Country": "Moldova",
+      "Phone": "1-584-550-1291",
+      "Departments": ["Quality Assurance", "Finances"]
+    },
+    {
+      "CompanyName": "Consequat Purus Maecenas Incorporated",
+      "Address": "149-1130 Suspendisse St.",
+      "City": "Tavigny",
+      "Country": "France",
+      "Phone": "1-265-827-8691",
+      "Departments": ["Human Resources", "Tech Support"]
+    },
+    {
+      "CompanyName": "Eu Tellus Corporation",
+      "Address": "3714 A Av.",
+      "City": "Kapuskasing",
+      "Country": "Ukraine",
+      "Phone": "1-462-546-8334",
+      "Departments": ["Quality Assurance", "Legal Department"]
+    },
+    {
+      "CompanyName": "Fringilla Corp.",
+      "Address": "Ap #785-4387 In Rd.",
+      "City": "Tando Allahyar",
+      "Country": "Ethiopia",
+      "Phone": "1-221-288-6241",
+      "Departments": ["Tech Support", "Public Relations", "Accounting", "Quality Assurance", "Media Relations", "Human Resources", "Payroll", "Research and Development", "Finances", "Advertising"]
+    },
+    {
+      "CompanyName": "Ante Nunc Mauris LLC",
+      "Address": "5146 Vel, Street",
+      "City": "Elektrougli",
+      "Country": "Bermuda",
+      "Phone": "1-512-696-4177",
+      "Departments": ["Customer Relations", "Advertising", "Sales and Marketing", "Quality Assurance", "Accounting"]
+    },
+    {
+      "CompanyName": "Dictum Ultricies Ligula Corp.",
+      "Address": "9872 Quis Rd.",
+      "City": "Sint-Kwintens-Lennik",
+      "Country": "Madagascar",
+      "Phone": "1-127-488-5410",
+      "Departments": ["Research and Development"]
+    },
+    {
+      "CompanyName": "Ullamcorper Foundation",
+      "Address": "P.O. Box 220, 6366 Interdum. Ave",
+      "City": "Hallein",
+      "Country": "Senegal",
+      "Phone": "904-1158",
+      "Departments": ["Payroll", "Research and Development", "Human Resources", "Sales and Marketing", "Tech Support", "Public Relations"]
+    },
+    {
+      "CompanyName": "Purus Mauris Corporation",
+      "Address": "720-2651 Metus. Road",
+      "City": "South Burlington",
+      "Country": "Macao",
+      "Phone": "1-648-731-6357",
+      "Departments": ["Tech Support", "Payroll", "Finances", "Asset Management", "Legal Department", "Media Relations", "Accounting", "Advertising", "Quality Assurance"]
+    },
+    {
+      "CompanyName": "Mollis Phasellus PC",
+      "Address": "P.O. Box 823, 5938 Phasellus St.",
+      "City": "Llanelli",
+      "Country": "Viet Nam",
+      "Phone": "550-6520",
+      "Departments": ["Advertising", "Media Relations"]
+    },
+    {
+      "CompanyName": "Lorem Limited",
+      "Address": "409-9604 Malesuada Street",
+      "City": "Armstrong",
+      "Country": "Senegal",
+      "Phone": "811-8600",
+      "Departments": ["Payroll"]
+    },
+    {
+      "CompanyName": "Montes Nascetur Ridiculus Ltd",
+      "Address": "9575 Dolor Street",
+      "City": "Carstairs",
+      "Country": "Gabon",
+      "Phone": "579-6594",
+      "Departments": ["Finances", "Public Relations", "Customer Service", "Research and Development"]
+    },
+    {
+      "CompanyName": "Consectetuer Adipiscing Associates",
+      "Address": "544-8373 Nullam Road",
+      "City": "Kamalia",
+      "Country": "Turks and Caicos Islands",
+      "Phone": "1-367-532-8240",
+      "Departments": ["Tech Support", "Media Relations", "Customer Service", "Customer Relations", "Sales and Marketing", "Legal Department", "Quality Assurance", "Accounting", "Human Resources"]
+    },
+    {
+      "CompanyName": "Lectus Pede Ultrices LLC",
+      "Address": "6048 Facilisis Street",
+      "City": "Oostkamp",
+      "Country": "Dominican Republic",
+      "Phone": "200-8556",
+      "Departments": ["Payroll", "Sales and Marketing", "Human Resources", "Asset Management", "Accounting", "Customer Relations", "Public Relations", "Legal Department", "Media Relations"]
+    },
+    {
+      "CompanyName": "Arcu Iaculis Associates",
+      "Address": "137-1795 In Street",
+      "City": "Gorinchem",
+      "Country": "Sierra Leone",
+      "Phone": "982-4290",
+      "Departments": ["Customer Relations", "Research and Development"]
+    },
+    {
+      "CompanyName": "Tincidunt PC",
+      "Address": "9098 Sit St.",
+      "City": "Alcalá de Henares",
+      "Country": "Fiji",
+      "Phone": "1-865-688-4358",
+      "Departments": ["Advertising", "Customer Service", "Public Relations", "Media Relations", "Accounting", "Tech Support"]
+    },
+    {
+      "CompanyName": "Orci Luctus Et Industries",
+      "Address": "1513 Lacinia. Avenue",
+      "City": "Oudenburg",
+      "Country": "Eritrea",
+      "Phone": "1-794-375-6415",
+      "Departments": ["Media Relations", "Advertising", "Research and Development", "Sales and Marketing", "Public Relations", "Tech Support", "Quality Assurance", "Payroll", "Accounting", "Asset Management"]
+    },
+    {
+      "CompanyName": "Adipiscing Fringilla Associates",
+      "Address": "342-883 Ac Road",
+      "City": "Buckingham",
+      "Country": "Saint Lucia",
+      "Phone": "1-594-493-0402",
+      "Departments": ["Customer Relations", "Customer Service", "Public Relations", "Sales and Marketing", "Human Resources", "Finances", "Asset Management"]
+    },
+    {
+      "CompanyName": "Ornare Placerat Orci Industries",
+      "Address": "1312 Auctor, St.",
+      "City": "La Salle",
+      "Country": "Gambia",
+      "Phone": "126-6580",
+      "Departments": ["Media Relations", "Research and Development", "Public Relations", "Customer Service", "Accounting"]
+    },
+    {
+      "CompanyName": "Vulputate Lacus Cras Company",
+      "Address": "P.O. Box 692, 7644 Luctus, St.",
+      "City": "Toernich",
+      "Country": "Saint Lucia",
+      "Phone": "1-714-873-0742",
+      "Departments": ["Research and Development", "Quality Assurance", "Asset Management", "Tech Support", "Payroll", "Advertising", "Human Resources", "Legal Department"]
+    },
+    {
+      "CompanyName": "Ante Ipsum Ltd",
+      "Address": "9842 Rhoncus. St.",
+      "City": "Municipal District",
+      "Country": "Norway",
+      "Phone": "769-9355",
+      "Departments": ["Legal Department", "Media Relations", "Quality Assurance", "Tech Support", "Advertising", "Public Relations", "Customer Service", "Payroll"]
+    },
+    {
+      "CompanyName": "Donec Foundation",
+      "Address": "3423 Vel, Av.",
+      "City": "Versailles",
+      "Country": "Turkmenistan",
+      "Phone": "371-4317",
+      "Departments": ["Customer Service", "Tech Support", "Public Relations"]
+    },
+    {
+      "CompanyName": "At Velit Inc.",
+      "Address": "P.O. Box 959, 4559 Tincidunt Av.",
+      "City": "Lowell",
+      "Country": "Kiribati",
+      "Phone": "1-686-287-8006",
+      "Departments": ["Research and Development"]
+    },
+    {
+      "CompanyName": "Egestas A Dui Company",
+      "Address": "P.O. Box 840, 1509 Pretium Rd.",
+      "City": "Huara",
+      "Country": "Kenya",
+      "Phone": "1-778-255-7679",
+      "Departments": ["Legal Department", "Finances"]
+    },
+    {
+      "CompanyName": "Facilisis Lorem Tristique LLP",
+      "Address": "205-2270 Donec Avenue",
+      "City": "Baltimore",
+      "Country": "Anguilla",
+      "Phone": "1-595-238-3059",
+      "Departments": ["Payroll", "Sales and Marketing", "Asset Management", "Customer Relations", "Tech Support", "Quality Assurance", "Accounting", "Public Relations"]
+    },
+    {
+      "CompanyName": "Amet Associates",
+      "Address": "P.O. Box 519, 8818 Dapibus St.",
+      "City": "Baden",
+      "Country": "Cameroon",
+      "Phone": "820-3887",
+      "Departments": ["Tech Support", "Finances"]
+    },
+    {
+      "CompanyName": "Nec Urna LLP",
+      "Address": "925-4148 Aliquam Avenue",
+      "City": "Fleurus",
+      "Country": "Tajikistan",
+      "Phone": "1-129-864-2508",
+      "Departments": ["Customer Relations", "Accounting", "Payroll", "Asset Management", "Research and Development", "Human Resources", "Media Relations", "Finances", "Public Relations", "Legal Department"]
+    },
+    {
+      "CompanyName": "Nunc Sed Pede Inc.",
+      "Address": "P.O. Box 478, 2412 Ridiculus Ave",
+      "City": "Heidenheim",
+      "Country": "South Africa",
+      "Phone": "1-128-463-8272",
+      "Departments": ["Quality Assurance", "Customer Relations", "Accounting", "Human Resources", "Sales and Marketing", "Public Relations", "Customer Service"]
+    },
+    {
+      "CompanyName": "Ultricies Ornare Elit Company",
+      "Address": "Ap #625-1594 Velit Av.",
+      "City": "Menai Bridge",
+      "Country": "Wallis and Futuna",
+      "Phone": "1-320-974-0661",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Faucibus Lectus A PC",
+      "Address": "P.O. Box 503, 3742 Vitae St.",
+      "City": "Jalgaon",
+      "Country": "Mexico",
+      "Phone": "1-792-385-8423",
+      "Departments": ["Customer Relations", "Sales and Marketing", "Tech Support", "Accounting", "Finances", "Legal Department", "Quality Assurance", "Public Relations"]
+    },
+    {
+      "CompanyName": "Egestas Fusce LLP",
+      "Address": "871-760 Eleifend, Avenue",
+      "City": "Shaftesbury",
+      "Country": "China",
+      "Phone": "1-722-962-3908",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Sed Dictum Eleifend Limited",
+      "Address": "570-5548 In, Road",
+      "City": "Burin",
+      "Country": "Hungary",
+      "Phone": "1-857-185-2042",
+      "Departments": ["Asset Management", "Human Resources", "Finances", "Legal Department", "Payroll", "Media Relations", "Tech Support", "Advertising"]
+    },
+    {
+      "CompanyName": "Posuere Vulputate Corporation",
+      "Address": "6866 Dolor Road",
+      "City": "Osan",
+      "Country": "Niue",
+      "Phone": "1-843-222-6363",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Eget Magna Suspendisse Ltd",
+      "Address": "P.O. Box 434, 7168 Sed Rd.",
+      "City": "Wrocław",
+      "Country": "Seychelles",
+      "Phone": "1-620-807-3268",
+      "Departments": ["Payroll", "Legal Department", "Quality Assurance", "Asset Management", "Media Relations", "Public Relations", "Customer Service", "Customer Relations"]
+    },
+    {
+      "CompanyName": "Volutpat Nunc Foundation",
+      "Address": "P.O. Box 219, 9392 Dui. Av.",
+      "City": "IJlst",
+      "Country": "Sri Lanka",
+      "Phone": "1-281-975-8444",
+      "Departments": ["Customer Relations", "Asset Management"]
+    },
+    {
+      "CompanyName": "Fusce Foundation",
+      "Address": "Ap #120-9214 Interdum Ave",
+      "City": "Manfredonia",
+      "Country": "Georgia",
+      "Phone": "351-9760",
+      "Departments": ["Media Relations", "Asset Management"]
+    },
+    {
+      "CompanyName": "Semper Cursus Integer Inc.",
+      "Address": "5356 Mattis. Street",
+      "City": "Douai",
+      "Country": "Sint Maarten",
+      "Phone": "1-854-369-4963",
+      "Departments": ["Sales and Marketing", "Asset Management", "Advertising", "Quality Assurance"]
+    },
+    {
+      "CompanyName": "Enim LLP",
+      "Address": "1882 Nonummy Street",
+      "City": "Marbaix",
+      "Country": "Swaziland",
+      "Phone": "888-8638",
+      "Departments": ["Customer Service", "Advertising", "Legal Department", "Finances", "Sales and Marketing", "Research and Development", "Human Resources"]
+    },
+    {
+      "CompanyName": "Aliquam Foundation",
+      "Address": "Ap #955-1175 Tincidunt St.",
+      "City": "Pasuruan",
+      "Country": "Bangladesh",
+      "Phone": "953-3274",
+      "Departments": ["Asset Management"]
+    },
+    {
+      "CompanyName": "Placerat Eget Associates",
+      "Address": "889-5579 Nec St.",
+      "City": "Meißen",
+      "Country": "Virgin Islands, United States",
+      "Phone": "1-796-247-7028",
+      "Departments": ["Research and Development"]
+    },
+    {
+      "CompanyName": "Amet Consectetuer Limited",
+      "Address": "4039 Donec Ave",
+      "City": "Lacombe County",
+      "Country": "Zimbabwe",
+      "Phone": "129-5157",
+      "Departments": ["Tech Support", "Sales and Marketing", "Finances", "Legal Department"]
+    },
+    {
+      "CompanyName": "Duis A PC",
+      "Address": "Ap #281-9444 Dui. Avenue",
+      "City": "Feldkirch",
+      "Country": "Guadeloupe",
+      "Phone": "1-766-864-5319",
+      "Departments": ["Payroll", "Finances", "Customer Service", "Tech Support", "Advertising", "Research and Development", "Sales and Marketing", "Asset Management", "Media Relations", "Public Relations"]
+    },
+    {
+      "CompanyName": "Auctor Velit Eget Incorporated",
+      "Address": "Ap #473-7904 Eleifend Av.",
+      "City": "Ceppaloni",
+      "Country": "Suriname",
+      "Phone": "1-951-344-8860",
+      "Departments": ["Tech Support", "Legal Department"]
+    },
+    {
+      "CompanyName": "Sapien Nunc Company",
+      "Address": "949-5832 A, Rd.",
+      "City": "Hualqui",
+      "Country": "United States Minor Outlying Islands",
+      "Phone": "473-0123",
+      "Departments": ["Finances"]
+    },
+    {
+      "CompanyName": "Nibh Consulting",
+      "Address": "P.O. Box 967, 9859 Sit St.",
+      "City": "Hennigsdorf",
+      "Country": "Djibouti",
+      "Phone": "1-413-948-1874",
+      "Departments": ["Sales and Marketing", "Tech Support", "Accounting", "Customer Relations", "Customer Service", "Asset Management", "Research and Development", "Media Relations", "Finances", "Advertising"]
+    },
+    {
+      "CompanyName": "Velit PC",
+      "Address": "890-9684 Odio. Rd.",
+      "City": "Solesino",
+      "Country": "Russian Federation",
+      "Phone": "1-532-715-7110",
+      "Departments": ["Quality Assurance", "Research and Development", "Human Resources", "Tech Support"]
+    },
+    {
+      "CompanyName": "Eget Ipsum Industries",
+      "Address": "5099 Augue, Street",
+      "City": "Serskamp",
+      "Country": "Aruba",
+      "Phone": "549-3123",
+      "Departments": ["Asset Management", "Legal Department", "Public Relations", "Quality Assurance", "Payroll", "Sales and Marketing"]
+    },
+    {
+      "CompanyName": "Sit Institute",
+      "Address": "Ap #820-5646 Adipiscing, Road",
+      "City": "Borisovka",
+      "Country": "Turks and Caicos Islands",
+      "Phone": "1-954-327-4990",
+      "Departments": [""]
+    },
+    {
+      "CompanyName": "Nisl Sem Consequat Industries",
+      "Address": "Ap #994-9795 Vivamus Av.",
+      "City": "Zirl",
+      "Country": "Togo",
+      "Phone": "333-0459",
+      "Departments": ["Human Resources"]
+    },
+    {
+      "CompanyName": "Massa Corp.",
+      "Address": "P.O. Box 685, 2518 Leo, Rd.",
+      "City": "Rigolet",
+      "Country": "Tanzania",
+      "Phone": "1-539-530-7906",
+      "Departments": ["Sales and Marketing"]
+    },
+    {
+      "CompanyName": "Libero Integer In Institute",
+      "Address": "7515 Massa. Street",
+      "City": "Kotli",
+      "Country": "Botswana",
+      "Phone": "1-118-600-1478",
+      "Departments": ["Finances", "Advertising", "Customer Service", "Research and Development", "Payroll"]
+    },
+    {
+      "CompanyName": "Proin PC",
+      "Address": "P.O. Box 228, 9565 Sed St.",
+      "City": "Miraflores",
+      "Country": "Burundi",
+      "Phone": "1-696-317-8018",
+      "Departments": ["Advertising"]
+    },
+    {
+      "CompanyName": "Ligula Nullam Incorporated",
+      "Address": "452-3004 Sem, St.",
+      "City": "Saint-Brieuc",
+      "Country": "Italy",
+      "Phone": "1-769-938-9296",
+      "Departments": ["Media Relations", "Finances", "Accounting", "Public Relations", "Quality Assurance", "Tech Support", "Asset Management", "Research and Development"]
+    },
+    {
+      "CompanyName": "Amet Nulla Foundation",
+      "Address": "8193 Congue. Street",
+      "City": "Berbroek",
+      "Country": "Western Sahara",
+      "Phone": "540-2669",
+      "Departments": ["Quality Assurance", "Tech Support", "Asset Management", "Payroll"]
+    },
+    {
+      "CompanyName": "Id Libero Donec Institute",
+      "Address": "283-2034 Accumsan Ave",
+      "City": "Jedburgh",
+      "Country": "Laos",
+      "Phone": "920-7614",
+      "Departments": ["Asset Management", "Public Relations", "Tech Support", "Sales and Marketing", "Media Relations"]
+    },
+    {
+      "CompanyName": "Nam Tempor Diam Corporation",
+      "Address": "328-3529 Lectus Avenue",
+      "City": "Woerden",
+      "Country": "Kyrgyzstan",
+      "Phone": "1-125-890-5501",
+      "Departments": ["Human Resources", "Customer Service", "Sales and Marketing", "Tech Support", "Research and Development", "Customer Relations", "Quality Assurance", "Accounting", "Public Relations"]
+    },
+    {
+      "CompanyName": "Nisi Nibh Lacinia Company",
+      "Address": "Ap #836-7681 Imperdiet, Rd.",
+      "City": "Lingen",
+      "Country": "Cambodia",
+      "Phone": "1-333-677-1566",
+      "Departments": ["Research and Development"]
+    },
+    {
+      "CompanyName": "Sit Amet Consectetuer Inc.",
+      "Address": "153-2036 Proin Ave",
+      "City": "Steenhuffel",
+      "Country": "Ghana",
+      "Phone": "757-5278",
+      "Departments": ["Legal Department", "Sales and Marketing", "Customer Service"]
+    },
+    {
+      "CompanyName": "Justo Faucibus Lectus LLC",
+      "Address": "Ap #262-6080 Integer Road",
+      "City": "Cellara",
+      "Country": "Monaco",
+      "Phone": "1-224-342-5037",
+      "Departments": ["Media Relations", "Sales and Marketing", "Human Resources", "Accounting", "Quality Assurance", "Payroll", "Legal Department", "Tech Support"]
+    },
+    {
+      "CompanyName": "Vestibulum Lorem Sit LLC",
+      "Address": "206-4124 Fusce Avenue",
+      "City": "Vaughan",
+      "Country": "Curaçao",
+      "Phone": "719-8856",
+      "Departments": ["Advertising", "Legal Department", "Finances", "Public Relations", "Sales and Marketing", "Tech Support", "Media Relations", "Accounting", "Payroll", "Research and Development"]
+    },
+    {
+      "CompanyName": "Aliquam Erat Associates",
+      "Address": "866-4227 Adipiscing Street",
+      "City": "Pavlovsky Posad",
+      "Country": "Macedonia",
+      "Phone": "518-9870",
+      "Departments": ["Customer Service", "Finances", "Quality Assurance"]
+    }
+  ]
+}

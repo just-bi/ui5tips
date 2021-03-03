@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+   Copyright 2021 and onwards, Just-BI B.V. (Rijswijk, the Netherlands; KVK: 27256964)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+<mvc:View
+  xmlns="sap.m"
+  xmlns:m="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:layout="sap.ui.layout"
+  controllerName="ui5tips.components.mainpage.MainPage"
+  displayBlock="true"
+>
+  <m:Page title="UIState App">
+    <m:headerContent>
+      <m:Button 
+        icon="sap-icon://undo"
+        tooltip="Restore all ui settings"
+        press="restoreUiSettings"
+      />
+    </m:headerContent>
+    <layout:Splitter>
+      <mvc:XMLView id="sideBar" viewName="ui5tips.components.sidebar.SideBar">
+        <mvc:layoutData>
+          <layout:SplitterLayoutData size="{uistate>sidebar/splitterSize}"/>
+        </mvc:layoutData> 
+      </mvc:XMLView>
+      <mvc:XMLView id="detailPage" viewName="ui5tips.components.detailpage.DetailPage"/>
+    </layout:Splitter>
+  </m:Page>
+</mvc:View>

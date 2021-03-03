@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+   Copyright 2021 and onwards, Just-BI B.V. (Rijswijk, the Netherlands; KVK: 27256964)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:m="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:form="sap.ui.layout.form"
+>
+  <m:IconTabFilter 
+    key="details"
+    text="Details"
+  >
+    <m:content>
+      <form:SimpleForm
+        editable="false"
+        layout="ResponsiveGridLayout"
+        title="Address"
+        labelSpanXL="3"
+        labelSpanL="3"
+        labelSpanM="3"
+        labelSpanS="12"
+        adjustLabelSpan="false"
+        emptySpanXL="4"
+        emptySpanL="4"
+        emptySpanM="4"
+        emptySpanS="0"
+        columnsXL="1"
+        columnsL="1"
+        columnsM="1"
+        singleContainerFullSize="false" 
+      >
+        <form:content>
+          <m:Label text="Address"/>
+          <m:Text text="{companies>Address}"/>
+          <m:Label text="City"/>
+          <m:Text text="{companies>City}"/>
+          <m:Label text="Country"/>
+          <m:Text text="{companies>Country}"/>
+        </form:content>
+      </form:SimpleForm>              
+    </m:content>
+  </m:IconTabFilter>
+</core:FragmentDefinition>

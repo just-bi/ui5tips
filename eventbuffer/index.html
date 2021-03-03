@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+
+   Copyright 2021 and onwards, Just-BI B.V. (Rijswijk, the Netherlands; KVK: 27256964)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Eventbuffer App</title>
+    <link id="animation" rel="stylesheet" type="text/css" href="css/progress-animation.css"/>
+    <link type="image/x-icon" href="images/txtonly_16x16.ico" rel="shortcut icon">
+    <script
+      id="sap-ui-bootstrap"
+      src="https://openui5.hana.ondemand.com/1.87.0/resources/sap-ui-core.js"
+      data-sap-ui-theme="sap_belize"
+      data-sap-ui-libs="sap.m"
+      data-sap-ui-bindingSyntax="complex"
+      data-sap-ui-compatVersion="edge"
+      data-sap-ui-preload="async"
+      data-sap-ui-resourceroots='{
+        "ui5tips": "./"
+      }'
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body class="sapUiBody" id="content">
+    <div id="busyIndicator" style="text-align: center; font-family: Sans, Arial">
+      <h3>Eventbuffer App is loading</h3>
+      <img src="images/openui5-logo.png" class="logo"/>
+
+      <!-- 
+           loader animation 
+           CC0 licensed code used with permission from 
+           https://loading.io/css/
+      -->
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <!-- end of loader -->
+
+      <center><h5>This may take a few moments...</h5></center>
+    </div>
+  </body>
+</html>

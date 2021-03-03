@@ -1,0 +1,65 @@
+{
+  "_version": "1.1.0",
+  "sap.app": {
+    "_version": "1.1.0",
+    "id": "ui5tips",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "title": "{{app.title}}",
+    "description": "{{app.description}}",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "ach": "CA-UI5-FST",
+    "dataSources": {
+      "companies": {
+        "uri": "data/companies.json",
+				"type": "JSON"
+      },
+      "uistateTemplate": {
+        "uri": "data/uistateTemplate.json",
+				"type": "JSON"
+      }
+    }
+  },
+  "sap.ui": {
+    "_version": "1.1.0",
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": false
+    },
+    "supportedThemes": ["sap_belize"]
+  },
+  "sap.ui5": {
+    "_version": "1.1.0",
+    "rootView": "ui5tips.components.app.App",
+    "dependencies": {
+      "minUI5Version": "1.87",
+      "libs": {
+        "sap.m": {}
+      }
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "ui5tips.i18n.i18n"
+        }
+      },
+      "uistate": {
+        "type": "ui5tips.utils.LocalStorageJSONModel",
+        "dataSource": "uistateTemplate"
+      },
+      "companies": {
+        "type": "sap.ui.model.json.JSONModel",
+        "dataSource": "companies"
+      }
+    },
+    "resources": {
+      "css": [
+      ]
+    }
+  }
+}

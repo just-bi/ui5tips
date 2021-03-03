@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+   Copyright 2021 and onwards, Just-BI B.V. (Rijswijk, the Netherlands; KVK: 27256964)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+<mvc:View
+  xmlns="sap.m"
+  xmlns:m="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:table="sap.ui.table"
+  controllerName="ui5tips.components.mainpage.MainPage"
+  displayBlock="true"
+>
+  <m:Page title="Eventbuffer App">
+    <table:Table
+      id="table"
+      editable="false"
+      selectionMode="Single"
+      selectionBehavior="Row"
+      enableBusyIndicator="true"
+      visibleRowCountMode="Auto"
+      columns="{
+        path: 'companies>/columns',
+        factory: '.createColumn'
+      }"
+      rows="{
+        path: 'companies>/rows'
+      }"
+    >
+      <table:extension>
+        <m:Bar>
+          <m:contentLeft>
+            <m:Label text="Search in Name:"/>
+            <m:SearchField id="searchField" placeholder="Enter searchterm"/>
+          </m:contentLeft>
+          <m:contentRight>
+            <m:Label text="Event buffer timeout:"/>
+            <m:ProgressIndicator id="progressIndicator" displayAnimation="false" state="Information"/>
+          </m:contentRight>
+        </m:Bar>        
+      </table:extension>
+    </table:Table>
+  </m:Page>
+</mvc:View>

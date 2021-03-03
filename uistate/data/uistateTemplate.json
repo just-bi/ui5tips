@@ -1,0 +1,27 @@
+{
+  "autoSaveTimeout": 1000,
+  "storagePrefix": "uistate",
+  "template": {
+    "appSettings": {
+      "sidebar": {
+        "splitterSize": "500px",
+        "columns": {
+          "name": {
+            "width": "200px"
+          },
+          "country": {
+            "width": "200px"
+          }
+        }
+      },
+      "detailpage": {
+        "panel": {
+          "expanded": true
+        },
+        "tabContainer": {
+          "selectedTab": "details" 
+        }
+      }
+    }
+  }
+}
