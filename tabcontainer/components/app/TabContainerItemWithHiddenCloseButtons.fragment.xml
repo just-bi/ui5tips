@@ -51,5 +51,5 @@
         </m:content>
       </m:TabContainerItem>
     </m:items>
-  </m:TabContainer>            
+  </m:TabContainer>
 </core:FragmentDefinition>
