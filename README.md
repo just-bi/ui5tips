@@ -1,6 +1,6 @@
 # ui5tips
 Some tips and reusable code you can use and reuse throughout your openui5 and sapui5 applications.
-Please see [the wiki](../../wiki/UI5Tips---Home) for detailed information about this repo. Or, for a quick overview, please see the summary below:
+Please see [the wiki](../../wiki) for detailed information about this repo. Or, for a quick overview, please see the summary below:
 
 * **[loadingscreen](../../wiki/Loading-screen)**:
 UI5 apps always take a little time to load. If you don't take any precautions, the user will be looking at a blank screen while the app is loading.
