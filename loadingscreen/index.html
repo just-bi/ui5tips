@@ -21,7 +21,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
     <title>My UI5 App</title>
+    
+    <!-- css required for the loading screen css anumation -->
     <link id="animation" rel="stylesheet" type="text/css" href="css/progress-animation.css"/>
+    
     <link type="image/x-icon" href="images/txtonly_16x16.ico" rel="shortcut icon">
     <script
       id="sap-ui-bootstrap"
@@ -38,8 +41,13 @@
     <script type="text/javascript" src="index.js"></script>
   </head>
   <body class="sapUiBody" id="content">
+
+    <!-- Loading splash screen -->
     <div id="busyIndicator" style="text-align: center; font-family: Sans, Arial">
+      <!-- static header text -->
       <h3>My UI5 App is loading</h3>
+      
+      <!-- static image of the ui5logo  -->
       <img src="images/openui5-logo.png" class="logo"/>
 
       <!-- 
@@ -53,9 +61,11 @@
         <div></div>
         <div></div>
       </div>
-      <!-- end of loader -->
+      <!-- end of loader animation -->
 
+      <!-- static footer text  -->
       <center><h5>This may take a few moments...</h5></center>
     </div>
+    
   </body>
 </html>
