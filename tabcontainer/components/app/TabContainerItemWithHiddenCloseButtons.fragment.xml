@@ -45,7 +45,6 @@
         -->
         <m:customData>
           <core:CustomData key="noCloseButton" value="false" writeToDom="true" />
-          <core:CustomData key="myKey" value="myValue" writeToDom="true" />
         </m:customData>
         <m:content>
           <m:Text text="Close button shown using custom data"/>
