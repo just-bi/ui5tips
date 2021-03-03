@@ -28,6 +28,9 @@
   >
     <m:pages>
       <m:Page title="Welcome to my App">
+        <m:headerContent>
+          <m:Link href="https://github.com/just-bi/ui5tips/wiki/Loading-screen" target="github" text="About this app"/>
+        </m:headerContent>
       </m:Page>
     </m:pages>
   </m:App>
