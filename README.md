@@ -19,8 +19,8 @@ Standard UI5 event handling will usually go a long way. Yet sometimes, certain u
 A very common scenario is doing a search in response to the liveChange event: rather than firing a query to the backend for each and every keystroke, it makes more sense to buffer these events, and react to only the last one, after some small timeout.
 The bufferedEventHandler utility helps you to do just that, in a generic and reusable way.
 
-* **[uistate](../../wiki/uistate)**:
+* **[Persistent UI state](../../wiki/Persistent-UI-State)**:
 Many ui5 controls and widgets allow some aspect of their appearance or behavior to be changed by the user. 
 For example, a panel may be collapsed or expanded, a tab may be selected, columns width in a data grid may be adjused, and so on. We call all this the ui state.
-When the user restarts the app, normally, the ui state is reset, This may not always be desirable.
+When the user restarts the app, normally, the ui state is reset, but this may not always be desirable.
 This tip provides a way to centrally manage the ui state, and have it persisted - automatically and without requiring intrusive custom code sprinkled through your apps.
