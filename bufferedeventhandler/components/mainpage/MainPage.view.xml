@@ -24,7 +24,10 @@
   controllerName="ui5tips.components.mainpage.MainPage"
   displayBlock="true"
 >
-  <m:Page title="Eventbuffer App">
+  <m:Page title="Buffered Event Handler App">
+    <m:headerContent>
+      <m:Link href="https://github.com/just-bi/ui5tips/wiki/bufferedEventHandler" target="github" text="About this app"/>
+    </m:headerContent>
     <table:Table
       id="table"
       editable="false"
