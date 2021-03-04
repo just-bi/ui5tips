@@ -14,7 +14,7 @@ These tips can be used as is or provide some inspiration to try your own ui5 css
 Examples in this category include:
   * **[TabContainerItem Close Button](../../wiki/CSS-hacks:-TabContainerItem-close-buttons)**: suppress the close buttons on the [sap.m.TabContainerItem](https://openui5.hana.ondemand.com/#/api/sap.m.TabContainerItem)
 
-* **[bufferedeventhandler](../../wiki/bufferedeventhandler)**:
+* **[bufferedEventHandler](../../wiki/bufferedEventHandler)**:
 Standard UI5 event handling will usually go a long way. Yet sometimes, certain user actions can cause ui5 objects to generate a lot of events within a small period of time.
 A very common scenario is doing a search in response to the liveChange event: rather than firing a query to the backend for each and every keystroke, it makes more sense to buffer these events, and react to only the last one, after some small timeout.
 The bufferedEventHandler utility helps you to do just that, in a generic and reusable way.
