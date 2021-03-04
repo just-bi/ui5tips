@@ -16,7 +16,7 @@ Examples in this category include:
 
 * **[bufferedeventhandler](../../wiki/bufferedeventhandler)**:
 Standard UI5 event handling will usually go a long way. Yet sometimes, certain user actions can cause ui5 objects to generate a lot of events within a small period of time.
-A very common scenario is the liveSearch event - rather than firing a query to the backend for each and every keystroke, it makes much more sense to buffer these events, and react to only the last one, after some small timeout.
+A very common scenario is doing a search in response to the liveChange event: rather than firing a query to the backend for each and every keystroke, it makes more sense to buffer these events, and react to only the last one, after some small timeout.
 The bufferedEventHandler utility helps you to do just that, in a generic and reusable way.
 
 * **[uistate](../../wiki/uistate)**:
