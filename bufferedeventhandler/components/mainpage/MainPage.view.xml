@@ -31,8 +31,7 @@
     <table:Table
       id="table"
       editable="false"
-      selectionMode="Single"
-      selectionBehavior="Row"
+      selectionMode="None"
       enableBusyIndicator="true"
       visibleRowCountMode="Auto"
       columns="{
