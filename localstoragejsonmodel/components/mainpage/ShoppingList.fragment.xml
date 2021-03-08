@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+   Copyright 2021 and onwards, Just-BI B.V. (Rijswijk, the Netherlands; KVK: 27256964)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:m="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:table="sap.ui.table"
+>
+  <table:Table
+    id="shoppingList"      
+    title="Shopping List"
+    editable="true"
+    selectionMode="None"
+    enableBusyIndicator="true"
+    visibleRowCountMode="Auto"
+    rowActionCount="1"
+    rows="{
+      path: 'shoppingList>/items'
+    }"
+  >
+    <table:extension>
+      <m:Bar>
+        <m:contentLeft>
+          <m:Button 
+            id="saveButton"
+            icon="sap-icon://save"
+            tooltip="Save shoppinglist"
+            enabled="false"
+            press="onSaveButtonPressed"
+          />
+          <m:Button 
+            id="undoButton"
+            icon="sap-icon://undo"
+            tooltip="Restore Shoppinglist"
+            enabled="false"
+            press="onUndoButtonPressed"
+          />
+        </m:contentLeft>
+        <m:contentMiddle>
+          <m:Button 
+            id="approvalButton"
+            icon="sap-icon://cart-approval"
+            tooltip="Send Order"
+            enabled="{= ${shoppingList>/items}.length &gt; 0 &amp;&amp; ${shoppingList>/items/0} !== undefined }"
+            press="onApproveButtonPressed"
+          />
+        </m:contentMiddle>
+        <m:contentRight>
+          <m:Button 
+            id="clearAllButton"
+            icon="sap-icon://clear-all"
+            tooltip="Clear Shoppinglist"
+            enabled="{= ${shoppingList>/items}.length &gt; 0 &amp;&amp; ${shoppingList>/items/0} !== undefined}"
+            press="onClearButtonPressed"
+          />
+        </m:contentRight>
+      </m:Bar>
+    </table:extension>
+    <table:columns>
+      <table:Column 
+        label="Product"
+      >
+        <table:template>
+          <m:Text 
+            text="{shoppingList>Product}"
+          />
+        </table:template>
+      </table:Column>
+      <table:Column 
+        label="Price"
+        hAlign="End"
+      >
+        <table:template>
+          <m:Text 
+            textAlign="Right"
+            text="{shoppingList>Price}"
+          />
+        </table:template>
+      </table:Column>
+      <table:Column 
+        label="Quantity"
+        hAlign="End"
+      >
+        <table:template>
+          <m:HBox>
+            <m:Button 
+              icon="sap-icon://less"
+              enabled="{= ${shoppingList>Quantity} &gt;= 2 ? true : false}"
+              press="onDecreaseQuantityPressed"
+              
+            />
+            <m:Input
+              textAlign="Right"
+              value="{shoppingList>Quantity}"
+            />
+            <m:Button 
+              icon="sap-icon://add"
+              press="onIncreaseQuantityPressed"
+            />
+          </m:HBox>
+        </table:template>
+      </table:Column>
+      <table:Column 
+        label="Total"
+        hAlign="End"
+      >
+        <table:template>
+          <m:Text
+            textAlign="Right"
+            text="{
+              parts: [
+                {path: 'shoppingList>Price'},
+                {path: 'shoppingList>Quantity'}
+              ],
+              formatter: '.formatItemTotal'
+            }"
+          />
+        </table:template>
+      </table:Column>
+    </table:columns>
+    <table:rowActionTemplate>
+      <table:RowAction>
+        <table:RowActionItem
+          icon="sap-icon://delete"
+          type="Delete"
+          press="onDeleteButtonPressed"
+        />            
+      </table:RowAction>
+    </table:rowActionTemplate>
+  </table:Table>
+</core:FragmentDefinition>
