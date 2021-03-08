@@ -1,0 +1,30 @@
+{
+  "name": "ui5tips",
+  "version": "1.0.0",
+  "description": "A few tips for using openui5/sapui5\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dthe openui5/sapui5 framework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-bi/ui5tips.git"
+  },
+  "keywords": [
+    "openui5",
+    "sapui5",
+    "javascript",
+    "just-bi.nl"
+  ],
+  "author": "Roland.Bouman@just-bi.nl",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/just-bi/ui5tips/issues"
+  },
+  "homepage": "https://github.com/just-bi/ui5tips#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-plugin-json": "^2.1.2"
+  }
+}
