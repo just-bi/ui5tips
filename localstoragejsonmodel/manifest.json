@@ -14,11 +14,11 @@
     "dataSources": {
       "products": {
         "uri": "data/products.json",
-				"type": "JSON"
+        "type": "JSON"
       },
       "shoppingListTemplate": {
         "uri": "data/shoppingListTemplate.json",
-				"type": "JSON"
+        "type": "JSON"
       }
     }
   },
