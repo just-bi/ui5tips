@@ -39,7 +39,10 @@
         label="Product"
       >
         <table:template>
-          <m:Text text="{products>Product}"/>
+          <m:Text 
+            wrapping="false"
+            text="{products>Product}"
+          />
         </table:template>
       </table:Column>
       <table:Column 
@@ -48,6 +51,7 @@
       >
         <table:template>
           <m:Text 
+            wrapping="false"
             text="{products>Price}"
             textAlign="Right"
           />

@@ -78,6 +78,7 @@
       >
         <table:template>
           <m:Text 
+            wrapping="false"
             text="{shoppingList>Product}"
           />
         </table:template>
@@ -88,6 +89,7 @@
       >
         <table:template>
           <m:Text 
+            wrapping="false"
             textAlign="Right"
             text="{shoppingList>Price}"
           />
@@ -107,6 +109,7 @@
             />
             <m:Input
               textAlign="Right"
+              wrapping="false"
               value="{shoppingList>Quantity}"
             />
             <m:Button 
@@ -123,6 +126,7 @@
         <table:template>
           <m:Text
             textAlign="Right"
+            wrapping="false"
             text="{
               parts: [
                 {path: 'shoppingList>Price'},
