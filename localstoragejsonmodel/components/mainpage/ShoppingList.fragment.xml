@@ -110,7 +110,10 @@
             <m:Input
               textAlign="Right"
               wrapping="false"
-              value="{shoppingList>Quantity}"
+              value="{
+                path: 'shoppingList>Quantity',
+                type: 'sap.ui.model.type.Integer'
+              }"
             />
             <m:Button 
               icon="sap-icon://add"

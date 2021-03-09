@@ -24,6 +24,8 @@ function(
   "use strict";  
   var controller = Controller.extend("ui5tips.components.mainpage.MainPage", {
     onInit: function() {
+      var messageManager = sap.ui.getCore().getMessageManager();
+      messageManager.registerObject(this.getView(), true);
       this.initShoppingListModelHandlers();
     },
     getShoppingListModel: function(){
