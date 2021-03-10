@@ -19,6 +19,9 @@ Standard UI5 event handling will usually go a long way. Yet sometimes, certain u
 A very common scenario is doing a search in response to the liveChange event: rather than firing a query to the backend for each and every keystroke, it makes more sense to buffer these events, and react to only the last one, after some small timeout.
 The bufferedEventHandler utility helps you to do just that, in a generic and reusable way.
 
+* **[LocalStorageJSONModel](../../wiki/LocalStorageJSONModel)**:
+An extension of [sap.ui.model.json.JSONModel](https://openui5.hana.ondemand.com/api/sap.ui.model.json.JSONModel) that uses [sap.ui.util.Storage](https://openui5.hana.ondemand.com/api/module:sap/ui/util/Storage) so it can be populated from and persisted to the browser's local stroage
+
 * **[Persistent UI state](../../wiki/Persistent-UI-State)**:
 Many ui5 controls and widgets allow some aspect of their appearance or behavior to be changed by the user. 
 For example, a panel may be collapsed or expanded, a tab may be selected, columns width in a data grid may be adjused, and so on. We call all this the ui state.
