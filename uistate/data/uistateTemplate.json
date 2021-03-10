@@ -4,13 +4,13 @@
   "template": {
     "appSettings": {
       "sidebar": {
-        "splitterSize": "500px",
+        "splitterSize": "431px",
         "columns": {
           "name": {
-            "width": "200px"
+            "width": "190px"
           },
           "country": {
-            "width": "200px"
+            "width": "190px"
           }
         }
       },
