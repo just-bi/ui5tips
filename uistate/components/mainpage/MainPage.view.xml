@@ -31,6 +31,10 @@
         tooltip="Restore all ui settings"
         press="restoreUiSettings"
       />
+      <m:Link 
+        href="https://github.com/just-bi/ui5tips/wiki/Persistent-UI-State"
+        text="About this App"
+      />
     </m:headerContent>
     <layout:Splitter>
       <mvc:XMLView id="sideBar" viewName="ui5tips.components.sidebar.SideBar">
