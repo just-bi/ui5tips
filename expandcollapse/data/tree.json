@@ -1,0 +1,27 @@
+[{
+  "name": "/",
+  "nodes": [
+    {
+      "name": "Documents",
+      "nodes": [
+        {"name": "Article"},
+        {"name": "Book"}
+      ]
+    }, 
+    {
+      "name": "Programs",
+      "nodes": [
+        {"name": "Word"},
+        {"name": "Excel"}
+      ]
+    },
+    {
+      "name": "Users",
+      "nodes": [
+        {"name": "Tom"},
+        {"name": "Dick"},
+        {"name": "Harry"}
+      ]
+    }
+  ]
+}]

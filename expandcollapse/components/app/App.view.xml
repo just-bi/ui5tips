@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+   Copyright 2021 and onwards, Just-BI B.V. (Rijswijk, the Netherlands; KVK: 27256964)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+<mvc:View
+  xmlns="sap.m"
+  xmlns:m="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:table="sap.ui.table"
+  controllerName="ui5tips.components.app.App"
+  displayBlock="true"
+>
+  <m:App 
+    id="app"
+  >
+    <m:pages>
+      <m:Page title="CSS hacks: Nicer expand/collapse Icons">
+      
+        <m:headerContent>
+          <m:Link href="https://github.com/just-bi/ui5tips/wiki/CSS-hacks:-ExpandCollapseIcons" target="github" text="About this app"/>
+        </m:headerContent>
+        
+        <m:TabContainer 
+          class="noCloseButtons" 
+        >
+          <m:items>
+          
+            <m:TabContainerItem name="Panel">
+              <m:content>
+                <m:Panel
+                  expandable="true"
+                  expanded="true"
+                  expandAnimation="false"
+                >
+                  
+                </m:Panel>
+              </m:content>
+            </m:TabContainerItem>
+            
+            <m:TabContainerItem name="Tree">
+              <m:content>
+                <m:Tree
+                  items="{tree>/}"
+                >
+                  <StandardTreeItem title="{tree>name}"/>
+                </m:Tree>
+              </m:content>
+            </m:TabContainerItem>
+            
+            <m:TabContainerItem name="TreeTable">
+              <m:content>
+                <table:TreeTable
+                  selectionMode="None"
+                  visibleRowCountMode="Auto"
+                  fixedColumnCount="1"
+                  rows="{
+                    path: 'tree>/'
+                    
+                  }"
+                >
+                  <table:columns>
+                    <table:Column
+                      label="Name"
+                    >
+                      <table:template>
+                        <m:Text text="{tree>name}"/>
+                      </table:template>
+                    </table:Column>
+                    <table:Column
+                      label="Items"
+                    >
+                      <table:template>
+                        <m:Text text="{= ${tree>nodes}.length }"/>
+                      </table:template>
+                    </table:Column>
+                  </table:columns>
+                </table:TreeTable>
+              </m:content>
+            </m:TabContainerItem>
+          </m:items>
+        </m:TabContainer>
+      </m:Page>
+    </m:pages>
+  </m:App>
+</mvc:View>

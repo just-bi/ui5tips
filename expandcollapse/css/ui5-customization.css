@@ -1,0 +1,118 @@
+/*************************************************************************
+*
+* Copyright 2021 and onwards, Just-BI B.V. (Rijswijk, the Netherlands; KVK: 27256964)
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*   http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+
+/* 
+
+  Use 
+  
+  <m:TabContainer class="noCloseButtons">
+  
+  to hide the close button on all tabs 
+
+*/
+div.sapMTabContainer.noCloseButtons > .sapMTabStripContainer > .sapMTabStrip > .sapMTSTabsContainer > .sapMTSTabs > .sapMTabStripItem > .sapMTSItemCloseBtnCnt {
+  visibility: hidden;  
+}
+
+/* 
+  Use
+  
+  <m:customData>
+    <core:CustomData writeToDom="true" key="noCloseButton" value="true"/>
+  </m:customData>
+    
+  inside a TabContainerItem to hide the close button on that tab
+*/
+div.sapMTabContainer > .sapMTabStripContainer > .sapMTabStrip > .sapMTSTabsContainer > .sapMTSTabs > .sapMTabStripItem[data-noclosebutton='true'] > .sapMTSItemCloseBtnCnt {
+  visibility: hidden;  
+}
+
+/* 
+  To still show the close button on individual TabContainerItems 
+  for a TabContainer that has class="noCloseButtons"
+  
+  Use
+  
+  <m:customData>
+    <core:CustomData writeToDom="true" key="noCloseButton" value="false"/>
+  </m:customData>
+    
+  inside the TabContainerItem.
+*/
+div.sapMTabContainer > .sapMTabStripContainer > .sapMTabStrip > .sapMTSTabsContainer > .sapMTSTabs > .sapMTabStripItem[data-noclosebutton='false'] > .sapMTSItemCloseBtnCnt {
+  visibility: visible;  
+}
+
+
+/*
+  sap.m.Panel Lessen the space between Panel collapse button and header toolbar 
+*/
+.sapMPanel .sapMPanelWrappingDiv .sapMPanelHdr, .sapMPanel .sapMPanelWrappingDivTb .sapMIBar.sapMTB {
+    padding-left: 0;
+    /* default is 3rem - too much */
+    margin-left: 2rem;
+}
+/*
+  sap.m.Panel better expanded button
+*/
+div.sapMPanel.sapMPanelExpandable > div > span[data-sap-ui-icon-content=].sapUiIcon::before {
+  content: '\e1d9';
+}
+
+/*
+  sap.m.Panel better collapse button
+*/
+div.sapMPanel.sapMPanelExpandable > div > span[data-sap-ui-icon-content=].sapUiIcon::before {
+  content: '\e1da';
+}
+
+/* tree table has too much padding before the collapse button in the first table cell */
+.sapUiTableTreeMode .sapUiTableCCnt .sapUiTableCellFirst .sapUiTableCellInner {
+  padding-left: 0px;
+}
+
+/**
+* sap.ui.table.TreeTable: better icons for expanded
+*/
+.sapUiTableTreeIcon.sapUiTableTreeIconNodeOpen::before {
+  content: '\e1d9';
+}
+/**
+* sap.ui.table.TreeTable: better icons for collapsed
+*/
+.sapUiTableTreeIcon.sapUiTableTreeIconNodeClosed::before {
+  content: '\e1da';
+}
+
+/**
+* sap.m.TreeItem icons
+*/
+
+/**
+* sap.m.TreeItem : better icons for collapsed 
+*/
+li.sapMTreeItemBase > span[data-sap-ui-icon-content=].sapMTreeItemBaseExpander.sapUiIcon::before {
+  content: '\e1da';
+}
+
+/**
+* sap.m.TreeItem : better icons for expanded
+*/
+li.sapMTreeItemBase > span[data-sap-ui-icon-content=].sapMTreeItemBaseExpander.sapUiIcon::before {
+  content: '\e1d9';
+}
