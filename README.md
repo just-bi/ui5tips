@@ -13,6 +13,7 @@ But sometimes, a little css can improve the look, and sometimes the feel of cert
 These tips can be used as is or provide some inspiration to try your own ui5 css hacks.
 Examples in this category include:
   * **[TabContainerItem Close Button](../../wiki/CSS-hacks:-TabContainerItem-close-buttons)**: suppress the close buttons on the [sap.m.TabContainerItem](https://openui5.hana.ondemand.com/#/api/sap.m.TabContainerItem)
+  * **[Expand/Collapse Buttons](../../wiki/CSS-hacks:-Collapse-and-Expand-Icons)**: change the expand/collapse buttons on [sap.m.Panel](https://openui5.hana.ondemand.com/#/api/sap.m.Panel), [sap.m.Tree](https://openui5.hana.ondemand.com/#/api/sap.m.Tree) and [sap.ui.table.TreeTable](https://openui5.hana.ondemand.com/#/api/sap.ui.table.TreeTable) 
 
 * **[bufferedEventHandler](../../wiki/bufferedEventHandler)**:
 Standard UI5 event handling will usually go a long way. Yet sometimes, certain user actions can cause ui5 objects to generate a lot of events within a small period of time.
