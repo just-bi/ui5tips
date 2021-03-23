@@ -51,7 +51,10 @@
     },
     "resources": {
       "css": [
-        { "uri": "css/ui5-customization.css" }
+        { "uri": "css/ui5-customization-m.Panel.css" },
+        { "uri": "css/ui5-customization-m.TabContainer.css" },
+        { "uri": "css/ui5-customization-m.Tree.css" },
+        { "uri": "css/ui5-customization-ui.tree.TreeTable.css" }
       ]
     }
   }

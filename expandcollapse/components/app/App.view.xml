@@ -21,7 +21,6 @@
   xmlns:m="sap.m"
   xmlns:core="sap.ui.core"
   xmlns:mvc="sap.ui.core.mvc"
-  xmlns:table="sap.ui.table"
   controllerName="ui5tips.components.app.App"
   displayBlock="true"
 >
@@ -39,59 +38,9 @@
           class="noCloseButtons" 
         >
           <m:items>
-          
-            <m:TabContainerItem name="Panel">
-              <m:content>
-                <m:Panel
-                  expandable="true"
-                  expanded="true"
-                  expandAnimation="false"
-                >
-                  
-                </m:Panel>
-              </m:content>
-            </m:TabContainerItem>
-            
-            <m:TabContainerItem name="Tree">
-              <m:content>
-                <m:Tree
-                  items="{tree>/}"
-                >
-                  <StandardTreeItem title="{tree>name}"/>
-                </m:Tree>
-              </m:content>
-            </m:TabContainerItem>
-            
-            <m:TabContainerItem name="TreeTable">
-              <m:content>
-                <table:TreeTable
-                  selectionMode="None"
-                  visibleRowCountMode="Auto"
-                  fixedColumnCount="1"
-                  rows="{
-                    path: 'tree>/'
-                    
-                  }"
-                >
-                  <table:columns>
-                    <table:Column
-                      label="Name"
-                    >
-                      <table:template>
-                        <m:Text text="{tree>name}"/>
-                      </table:template>
-                    </table:Column>
-                    <table:Column
-                      label="Items"
-                    >
-                      <table:template>
-                        <m:Text text="{= ${tree>nodes}.length }"/>
-                      </table:template>
-                    </table:Column>
-                  </table:columns>
-                </table:TreeTable>
-              </m:content>
-            </m:TabContainerItem>
+            <core:Fragment fragmentName="ui5tips.components.app.TreeTable" type="XML" />          
+            <core:Fragment fragmentName="ui5tips.components.app.Tree" type="XML" />          
+            <core:Fragment fragmentName="ui5tips.components.app.Panel" type="XML" />          
           </m:items>
         </m:TabContainer>
       </m:Page>
