@@ -17,7 +17,12 @@
 */
 
 /**
-* sap.m.TreeItem : better icons for collapsed 
+  sap.m.TreeItem : better icons for collapsed 
+
+  The value in the predicate for data-sap-ui-icon-content may not render correctly,
+  but this is decimal 57446, or 0xE066, which corresponds to UI5's "navigation-right-arrow" icon
+  (https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons/?tab=grid&icon=navigation-right-arrow)
+
 */
 
 li.sapMTreeItemBase > span[data-sap-ui-icon-content=].sapMTreeItemBaseExpander.sapUiIcon::before {
@@ -26,7 +31,11 @@ li.sapMTreeItemBase > span[data-sap-ui-icon-content=].sapMTreeItemBaseExpande
 
 
 /**
-* sap.m.TreeItem : better icons for expanded
+  sap.m.TreeItem : better icons for expanded
+
+  The value in the predicate for data-sap-ui-icon-content may not render correctly,
+  but this is decimal 57826, or 0xE1E2, which corresponds to UI5's "navigation-down-arrow" icon
+  (https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons/?tab=grid&icon=navigation-down-arrow)
 */
 
 li.sapMTreeItemBase > span[data-sap-ui-icon-content=].sapMTreeItemBaseExpander.sapUiIcon::before {
