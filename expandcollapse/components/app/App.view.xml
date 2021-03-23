@@ -31,7 +31,7 @@
       <m:Page title="CSS hacks: Nicer expand/collapse Icons">
       
         <m:headerContent>
-          <m:Link href="https://github.com/just-bi/ui5tips/wiki/CSS-hacks:-ExpandCollapseIcons" target="github" text="About this app"/>
+          <m:Link href="https://github.com/just-bi/ui5tips/wiki/CSS-hacks:-Collapse-and-Expand-Icons" target="github" text="About this app"/>
         </m:headerContent>
         
         <m:TabContainer 
