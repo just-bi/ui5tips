@@ -17,7 +17,12 @@
 */
 
 /*
-  sap.m.Panel better expanded button
+  sap.m.Panel better expanded button. 
+
+  The value in the predicate for data-sap-ui-icon-content may not render correctly,
+  but this is decimal 57839, or 0xE1EF, which corresponds to UI5's "slim-arrow-down" icon
+  (https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons/?tab=grid&icon=slim-arrow-down)
+  
 */
 div.sapMPanel.sapMPanelExpandable > div > span[data-sap-ui-icon-content=].sapUiIcon::before {
   content: '\e1d9';
@@ -25,6 +30,10 @@ div.sapMPanel.sapMPanelExpandable > div > span[data-sap-ui-icon-content=].sap
 
 /*
   sap.m.Panel better collapse button
+  
+  The value in the predicate for data-sap-ui-icon-content may not render correctly,
+  but this is decimal 57837, or 0xE1ED, which corresponds to UI5's "slim-arrow-right" icon
+  (https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons/?tab=grid&icon=slim-arrow-down)
 */
 div.sapMPanel.sapMPanelExpandable > div > span[data-sap-ui-icon-content=].sapUiIcon::before {
   content: '\e1da';
